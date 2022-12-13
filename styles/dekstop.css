@@ -1,0 +1,228 @@
+* {
+    overflow-x: visible;
+}
+
+/*disabled items*/
+
+.menuD {
+    display: none !important;
+}
+
+.Container_image_working_movile {
+    display: none;
+}
+
+.header_movile {
+    display: none;
+}
+
+.Container_Cards_movile {
+    display: none;
+}
+
+/*Header styles*/
+
+.header_dekstop {
+    width: 100%;
+    display: flex;
+    padding: 25px;
+}
+
+.header_dekstop div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(257, 7%, 63%)
+}
+
+.header_dekstop div figure {
+    margin-right: 20px;
+}
+
+.header_dekstop div ul {
+    display: flex;
+    list-style: none;
+}
+
+.header_dekstop div ul li {
+    margin-right: 35px;
+    padding-bottom: 10px;
+}
+
+.header--button {
+    margin-left: 30px;
+    border: none;
+    background-color: none;
+    width: 120px;
+    height: 40px;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+/*styles Home Section*/
+
+.main--home_section {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 8vw;
+}
+
+.Container_image_working_dekstop {
+    display: block;
+}
+
+.Container_image_working_dekstop img {
+    object-fit: cover;
+    object-position: 130px;
+}
+
+.introduccion {
+    text-align: start !important;
+}
+
+.introduccion h1 {
+    font-size: 50px !important;
+}
+
+.introduccion button {
+    height: 50px !important;
+}
+
+/*component links styles*/
+
+.link_builder_component {
+    max-width: 1000px;
+    background-image: url(/assets/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    flex-direction: column;
+}
+
+.link_builder_component form {
+    width: 100%;
+    flex-direction: row;
+}
+
+.link_builder_component label {
+    width: 75% !important;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.link_builder_component input {
+    width: 100%;
+    height: 55px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.link_builder_component button {
+    width: 15%;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.link {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.linkItem_firstSection {
+    padding-bottom: 0.000000000001px;
+    margin-left: 20px;
+    border-bottom: none;
+}
+
+.linkIteme_SecondSection {
+    display: flex;
+    width: 33%;
+    align-items: center;
+    margin: 0;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+
+.linkIteme_SecondSection button {
+    margin: 0;
+    width: 130px;
+}
+
+.main--section__container__created__links--description {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+.main--section__container__created__links--description h2 {
+    font-size: 35px;
+}
+
+.Container_Cards_dekstop {
+    display: flex;
+    width: 80%;
+    padding-bottom: 150px;
+    flex-direction: row-reverse;
+}
+
+.IconsContainer {
+    top: -40px;
+}
+
+.main--section__container__created__links--article {
+    padding: 0px 20px 40px 20px;
+    margin-right: 40px;
+}
+
+.separator_line {
+    transform: rotate(90deg);
+    width: 20px;
+    height: 57px;
+    right: 25px;
+}
+
+.separator_line {
+    top: 50px;
+}
+
+/*footer styles*/
+.Footer_SeccionOne {
+    background-image: url(/assets/bg-boost-desktop.svg);
+}
+
+.Footer_SeccionOne {
+    font-size: 25px;
+}
+
+.Footer_SeccionOne button {
+    height: 50px;
+}
+
+.Footer_SeccionTwo {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    height: 300px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+ul li {
+    padding: 0px;
+    text-align: start;
+}
+
+.ContentFooter {
+    margin-right: 90px;
+}

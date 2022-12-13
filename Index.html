@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+    </style>
+    <link rel="stylesheet" href="/styles/mobile.css">
+    <link rel="stylesheet" media="(min-width: 1050px)" href="/styles/dekstop.css">
+    <title>Prueba Frontend Developer</title>
+</head>
+
+<header class="header_movile">
+    <nav>
+        <div class="hide">
+            <img src="/assets/logo.svg" class="Header--logo" alt="Logo">
+            <img src="/assets/barra-de-menus.png" class="Header--Menu_bar" alt="Menu bar">
+        </div>
+    </nav>
+</header>
+
+<nav class="menuD">
+    <ul class="menuD--UL">
+        <li><a href="#">Reatures</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li class="resources"><a href="#">Resources</a></li>
+        <li><a href="#">Login</a></li>
+        <button class="button"><a href="#">Sign Up</a></button>
+    </ul>
+</nav>
+
+<header class="header_dekstop">
+    <div>
+        <figure>
+            <img src="/assets/logo.svg" alt="Logo">
+        </figure>
+        <ul class="header_container_Items">
+            <li>Features</li>
+            <li>Pricings</li>
+            <li>Resources</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>Login</li>
+        </ul>
+        <button class="header--button">Sign Up</button>
+    </div>
+</header>
+
+<main>
+    <section class="main--home_section">
+
+        <figure class="Container_image_working_movile">
+            <img src="/assets/illustration-working.svg" alt="Illustration of person working">
+        </figure>
+
+        <figure class="Container_image_working_dekstop">
+            <img src="/assets/illustration-working.svg" alt="Illustration of person working">
+        </figure>
+
+        <div class="introduccion">
+            <h1>More than just shorten links</h1>
+            <p>
+                Build your brand's recognition and get detailed insights on how your links are perfonrming.
+            </p>
+            <button type="button">Get Started</button>
+        </div>
+    </section>
+
+    <div class="link_builder_component">
+
+        <form action="">
+            <label for="inputValue">
+                <input type="text" id="inputValue" placeholder="Shorten a link here...">
+            </label>
+            <button type="button" id="button" onclick="generateLink">Shorten it!
+            </button>
+        </form>
+    </div>
+
+    <section class="main--section__container__created__links">
+
+        <div class="container_links">
+
+
+        </div>
+
+        <div class="main--section__container__created__links--description">
+            <h2>Advanced Statistics</h2>
+            <p>
+                Trackhow your links are performing across the web <br>with our advanced statistics dashboard.
+            </p>
+        </div>
+
+        <div class="Container_Cards_movile">
+            <figure class="IconsContainer">
+                <img src="/assets/icon-brand-recognition.svg" alt="trend icon">
+            </figure>
+
+            <article class="main--section__container__created__links--article">
+                <h2>Brand Recognition</h2>
+                <p>
+                    Boost your brand Recognition with each click. Generics links don't mean a thing. Branded links
+                    instil confidence in your content.
+                </p>
+            </article>
+
+            <div class="separator_line"></div>
+
+            <figure class="IconsContainer icon2">
+                <img src="/assets/icon-detailed-records.svg" alt="improvement icon">
+            </figure>
+
+            <article class="main--section__container__created__links--article article2">
+                <h2>Detailed Records</h2>
+                <p>
+                    Gain insights into who is clicking your links. Knowing when and where people engage with your
+                    content helps inform better decisions.
+                </p>
+            </article>
+
+            <div class="separator_line line2"></div>
+
+            <figure class="IconsContainer icon3">
+                <img src="/assets/icon-fully-customizable.svg" alt="personalization icon">
+            </figure>
+
+            <article class="main--section__container__created__links--article article3">
+                <h2>Fully Customizable</h2>
+                <p>
+                    Improve brand awareness and content discoverability through customizable links, supercharging
+                    audience engagement.
+                </p>
+            </article>
+        </div>
+
+        <div class="Container_Cards_dekstop">
+
+
+            <article class="main--section__container__created__links--article">
+                <figure class="IconsContainer">
+                    <img src="/assets/icon-brand-recognition.svg" alt="trend icon">
+                </figure>
+                <h2>Brand Recognition</h2>
+                <p>
+                    Boost your brand Recognition with each click. Generics links don't mean a thing. Branded links
+                    instil confidence in your content.
+                </p>
+            </article>
+
+            <div class="separator_line"></div>
+
+            <article class="main--section__container__created__links--article article2">
+                <figure class="IconsContainer icon2">
+                    <img src="/assets/icon-detailed-records.svg" alt="improvement icon">
+                </figure>
+                <h2>Detailed Records</h2>
+                <p>
+                    Gain insights into who is clicking your links. Knowing when and where people engage with your
+                    content helps inform better decisions.
+                </p>
+            </article>
+
+            <div class="separator_line line2"></div>
+
+            <article class="main--section__container__created__links--article article3">
+
+                <figure class="IconsContainer icon3">
+                    <img src="/assets/icon-fully-customizable.svg" alt="personalization icon">
+                </figure>
+                <h2>Fully Customizable</h2>
+                <p>
+                    Improve brand awareness and content discoverability through customizable links, supercharging
+                    audience engagement.
+                </p>
+            </article>
+        </div>
+
+
+    </section>
+
+
+
+</main>
+
+<footer>
+    <section class="Footer_SeccionOne">
+        <h2>Boots your links today</h2>
+        <button type="button">Get Started</button>
+    </section>
+
+    <section class="Footer_SeccionTwo">
+
+        <div class="containerTitle">
+            <h1>
+                Shortly
+            </h1>
+        </div>
+
+        <div class="ContentFooter">
+            <h3>
+                Features
+            </h3>
+            <ul>
+                <li>Link Shortening</li>
+                <li>Branded Links</li>
+                <li>Analytics</li>
+            </ul>
+        </div>
+
+        <div class="ContentFooter">
+            <h3>
+                Resources
+            </h3>
+            <ul>
+                <li>Blog</li>
+                <li>Developers</li>
+                <li>Support</li>
+            </ul>
+        </div>
+
+        <div class="ContentFooter">
+            <h3>
+                Company
+            </h3>
+            <ul class="">
+                <li>About</li>
+                <li>Our Team</li>
+                <li>Careers</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="ContentFooter--icons">
+            <ul>
+                <li><img src="/assets/icon-facebook.svg" alt="facebook icon"></li>
+                <li><img src="/assets/icon-twitter.svg" alt="twitter icon"></li>
+                <li><img src="/assets/icon-pinterest.svg" alt="pinterest icon"></li>
+                <li><img src="/assets/icon-instagram.svg" alt="instagram icon"></li>
+            </ul>
+        </div>
+    </section>
+
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="/scripts/functionMenu.js"></script>
+<script src="/scripts/LinksComponent.js"></script>
+</body>
+
+</html>

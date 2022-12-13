@@ -1,0 +1,461 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_dekstop {
+    display: none;
+}
+
+.Container_image_working_dekstop {
+    display: none;
+}
+
+
+.Container_Cards_dekstop {
+    display: none;
+}
+
+/*Header Styles*/
+
+.header_movile {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px 0px 20px;
+    margin-bottom: 10px;
+}
+
+.Header--Menu_bar {
+    width: 33px;
+}
+
+.hide {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Menu Styles*/
+
+.menuD--UL {
+    display: none;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    background: hsl(257, 27%, 26%);
+    text-align: center;
+    list-style: none;
+    overflow: hidden;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    position: absolute;
+    left: 20px;
+}
+
+ul li {
+    width: 100%;
+    padding: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.resources {
+    border-bottom: 1px solid hsl(257, 7%, 63%);
+}
+
+.button {
+    border: none;
+    background-color: none;
+    width: 85%;
+    height: 50px;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Main Styles*/
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+/*First Section Styles*/
+
+.main--home_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main--home_section .Container_image_working_movile {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.main--home_section .Container_image_working_movile img {
+    object-fit: cover;
+    height: 50vh;
+    object-position: 20px;
+}
+
+.main--home_section .introduccion {
+    width: 90%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main--home_section .introduccion h1 {
+    color: hsl(255, 11%, 22%);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.main--home_section .introduccion p {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: hsl(257, 7%, 63%)
+}
+
+.main--home_section .introduccion button {
+    border: none;
+    background-color: none;
+    width: 200px;
+    height: 60px;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+/*link builder component Styles*/
+
+.link_builder_component {
+    width: 90%;
+    height: 140px;
+    background-image: url("/assets/imageContainerLinks.jpg");
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+}
+
+.link_builder_component form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link_builder_component form label {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.link_builder_component input {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.link_builder_component input::placeholder {
+    padding-left: 20px;
+}
+
+.link_builder_component button {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.link_builder_component span {
+    color: hsl(0, 87%, 67%);
+    font-size: 13px;
+    padding-top: 15px;
+    margin-left: 6%;
+}
+
+/*Section container created links*/
+
+.Container_Cards_movile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main--section__container__created__links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(225deg 33% 95%);
+    padding-top: 95px;
+}
+
+.container_links {
+    display: block;
+    width: 100%;
+    background-color: hsl(225deg 33% 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.link {
+    background-color: #fff;
+    width: 90%;
+    border-radius: 10px;
+    padding: 15px 15px 0px 15px;
+    height: 160px;
+    margin-bottom: 30px;
+}
+
+.linkItem_firstSection {
+    border-bottom: 1px solid hsl(225deg 33% 95%);
+    padding-bottom: 10px;
+}
+
+.linkIteme_SecondSection {
+    margin-top: 15px;
+}
+
+.linkIteme_SecondSection textarea {
+    border: none;
+    width: 100%;
+    height: 20px;
+    font-size: 1em;
+    color: hsl(180, 66%, 49%);
+    resize: none;
+    overflow-y: hidden;
+}
+
+
+
+.linkIteme_SecondSection textarea:focus {
+    outline: 0px;
+}
+
+.linkIteme_SecondSection button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.linkItem_firstSection p {
+    color: hsl(257, 27%, 26%);
+    ;
+}
+
+.linkIteme_SecondSection p {
+    color: hsl(180, 66%, 49%);
+}
+
+.main--section__container__created__links--description {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 90px;
+}
+
+.main--section__container__created__links--description h2 {
+    color: hsl(255, 11%, 22%);
+    margin-bottom: 20px;
+}
+
+.main--section__container__created__links--description p {
+    color: hsl(257, 7%, 63%);
+}
+
+.IconsContainer {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 50px;
+    position: relative;
+    z-index: 10;
+    top: 40px;
+}
+
+.main--section__container__created__links--article {
+    width: 90%;
+    text-align: start;
+    padding: 70px 20px 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: start;
+    align-items: start;
+}
+
+.main--section__container__created__links--article h2 {
+    color: hsl(255, 11%, 22%);
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.main--section__container__created__links--article p {
+    color: hsl(257, 7%, 63%);
+}
+
+.separator_line {
+    width: 10px;
+    height: 60px;
+    background-color: hsl(180, 66%, 49%);
+    position: relative;
+}
+
+.icon2 {
+    top: 0px
+}
+
+.article2 {
+    top: -40px
+}
+
+.line2 {
+    top: -40px
+}
+
+.icon3 {
+    top: -40px
+}
+
+.article3 {
+    top: -80px
+}
+
+/*Footer styles*/
+
+footer {
+    width: 100%;
+    height: auto;
+}
+
+.Footer_SeccionOne {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/bg-boost-mobile.svg);
+    background-color: hsl(257, 27%, 26%);
+}
+
+.Footer_SeccionOne h2 {
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.Footer_SeccionOne button {
+    border: none;
+    background-color: none;
+    width: 200px;
+    height: 60px;
+    background-color: hsl(180, 66%, 49%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    border-radius: 30px;
+}
+
+.Footer_SeccionTwo {
+    width: 100%;
+    text-align: center;
+    background-color: hsl(260, 8%, 14%);
+    color: #fff;
+    height: 850px;
+}
+
+.Footer_SeccionTwo .containerTitle {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.Footer_SeccionTwo .ContentFooter h3 {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.Footer_SeccionTwo .ContentFooter li {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: hsl(0, 0%, 75%);
+}
+
+.Footer_SeccionTwo .ContentFooter--icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer_SeccionTwo .ContentFooter--icons ul {
+    display: flex;
+    padding-top: 40px;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.copied {
+    background-color: hsl(257, 27%, 26%) !important;
+}
+
+
